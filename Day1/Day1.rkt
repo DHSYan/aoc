@@ -66,5 +66,5 @@
 	(help lst empty)
 	)
 
-(foldl max 0 (maptonumber input))
+(foldl + 0 (take (sort (maptonumber input) >) 3))
 
